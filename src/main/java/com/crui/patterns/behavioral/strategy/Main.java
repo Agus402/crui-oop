@@ -1,5 +1,9 @@
 package com.crui.patterns.behavioral.strategy;
 
+import com.crui.patterns.behavioral.strategy.entities.Pokemon;
+import com.crui.patterns.behavioral.strategy.strategies.AtaqueAgua;
+import com.crui.patterns.behavioral.strategy.strategies.AtaqueFuego;
+
 public class Main {
     public static void main(String[] args) {
 

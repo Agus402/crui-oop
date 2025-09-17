@@ -1,5 +1,7 @@
 package com.crui.patterns.behavioral.strategy.entities;
 
+import com.crui.patterns.behavioral.strategy.strategies.AtaqueStrategy;
+
 public class Pokemon {
     private String nombre;
     private AtaqueStrategy ataque;

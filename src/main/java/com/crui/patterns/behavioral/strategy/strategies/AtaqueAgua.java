@@ -1,5 +1,7 @@
 package com.crui.patterns.behavioral.strategy.strategies;
 
+import com.crui.patterns.behavioral.strategy.entities.Pokemon;
+
 public class AtaqueAgua implements AtaqueStrategy {
     @Override
     public void ejecutarAtaque(Pokemon atacante, Pokemon objetivo) {
